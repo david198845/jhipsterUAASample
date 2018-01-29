@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "applicationType": "uaa",
+    "gitHubOrganization": "david198845",
+    "baseName": "jhipsterUAASample",
+    "packageName": "io.github.jhipster.application",
+    "serverPort": 9999,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [],
+    "enableTranslation": true,
+    "nativeLanguage": "de",
+    "languages": [
+      "en",
+      "de"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.13.3",
+    "packageFolder": "io/github/jhipster/application",
+    "jwtSecretKey": "58e03532d390c73489491c65ad57a0544e7572f9",
+    "jhiPrefix": "jhi",
+    "skipClient": true
+  }
+}
